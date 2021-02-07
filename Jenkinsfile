@@ -6,12 +6,6 @@ pipeline {
   }
   agent any
   stages {
-    stage('Cloning Git') {
-      steps {
-        git([url: 'https://github.com/birareros/devopsbase2.git'])
-
-      }
-    }
     stage('Buildingimage') {
       steps{
         script {
