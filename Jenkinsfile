@@ -1,8 +1,8 @@
 pipeline {
   environment {
-    imagename - "birareros/devopsbase2"
+    imagename = "birareros/devopsbase2"
     registryCredential = 'dockerhub_id'
-    dockerImage - ''
+    dockerImage = ''
   }
   agent any
   stages {
