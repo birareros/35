@@ -1,4 +1,4 @@
-peline {
+pipeline {
   environment {
     imagename - "birareros/devopsbase2"
     registryCredential = 'dockerhub_id'
